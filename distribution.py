@@ -45,5 +45,6 @@ for i in range (0,26):
     squirrel.append(text.count(letters[i]))
 letters2=list(string.ascii_lowercase)
 squirrel=zip(squirrel,letters2)
-print(squirrel)
+print((list(squirrel)))
+
     
