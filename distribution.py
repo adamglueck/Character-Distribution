@@ -45,6 +45,9 @@ for i in range (0,26):
     squirrel.append(text.count(letters[i]))
 letters2=list(string.ascii_lowercase)
 squirrel=zip(squirrel,letters2)
-print((list(squirrel)))
+a=sorted(squirrel)
+print(a)
+for i in range (26,1,-1):
+    print
 
     
