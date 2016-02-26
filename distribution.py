@@ -1,9 +1,9 @@
 """
 distribution.py
-Author: <your name here>
+Author: Adam Glueck
 Credit: All of Glen's work, stack overflow
 
-Assignment:
+Assignment:  DIstribution O' Characters
 
 Write and submit a Python program (distribution.py) that computes and displays 
 the distribution of characters in a given sample of text.
