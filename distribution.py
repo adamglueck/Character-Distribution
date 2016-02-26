@@ -39,7 +39,9 @@ Notice about this example:
 import string
 letters=list(string.ascii_lowercase)
 squirrel=[]
-text=input("Please enter a string of text (the bigger the better): ").lower()
+text=input("Please enter a string of text (the bigger the better): ")
+text=text.lower()
+print("The distribution of characters in "+text+" is:")
 for i in range (0,26):
     squirrel.append(text.count(letters[i]))
 letters2=list(string.ascii_lowercase)
