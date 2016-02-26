@@ -36,7 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-z=0
+
 import string
 letters=list(string.ascii_lowercase)
 squirrel=[]
@@ -47,7 +47,7 @@ letters2=list(string.ascii_lowercase)
 squirrel=zip(squirrel,letters2)
 a=sorted(squirrel)
 print(a)
-while z<26:
+for z in range (25,0,-1):
     print(a[z][0]*a[z][1])
 
     
