@@ -48,6 +48,6 @@ squirrel=zip(squirrel,letters2)
 a=sorted(squirrel)
 print(a)
 while z<26:
-    print(a[z]*a[z+1])
+    print(a[z][0]*a[z][1])
 
     
