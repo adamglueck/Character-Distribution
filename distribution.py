@@ -46,8 +46,7 @@ for i in range (0,26):
     squirrel.append(text.count(letters[i]))
 letters2=list(string.ascii_lowercase)
 squirrel=zip(squirrel,letters2)
-a=sorted(squirrel)
-for z in range (25,0,-1):
-    print(a[z][0]*a[z][1])
-
-    
+#a=sorted(squirrel)
+final=sorted(squirrel, key=lambda squirrel: (-squirrel[0], squirrel[1]))  
+for z in range (1,26):
+    print(final[z][0]*final[z][1])
